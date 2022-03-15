@@ -15,13 +15,21 @@ Please write an R script that performs the operations described below.  When you
   * Use the field Amount for the amount and it is on the y-axis
   * Use the SC_Commodity_Type for the commodity type
   * Make sure all plot labels are clear and visible
+  
+![alt text]("./../Rplot1.png)
+
 4. Examine the built-in R dataset, Orange
   * Look at the collection of built-in datasets (hint: ?data)
    * Consider the Orange data set in particular (hint: ?Orange)
   * Describe the mode() and class() of all variables in the data set (hint: ?Orange)
 5. Plot and analyze the Orange data set
   * Produce one grouped bar plot, where the age and the specific tree number is on the x-axis, while the circumference is on the y-axis -- group by age
+![alt text]("./../Rplot2.png)
+  
   * Produce one grouped bar plot, where the age and the specific tree number is on the x-axis, while the circumference is on the y-axis -- group by tree ID number
+![alt text]("./../Rplot3.png)
   * Make sure all plot labels are clear and visible, in both plots
   * If you have trouble because something is being treated as a number that you want treated as a factor, recall that you can use the factor() function to convert
   * Suppose you are interested in comparing across ages for a specific tree primarily, and only secondarily across different trees.  Which plot would you prefer?
+
+#### In order to compare ages across a specific tree, I would prefer the first plot (Tree ID vs Circumference, categorized by age). This is because, each tree ID is separately grouped on the x-axis making it easier for per tree analysis of age 
